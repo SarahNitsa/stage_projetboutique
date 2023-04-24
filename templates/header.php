@@ -41,6 +41,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/connexion">Connexion</a>
                 </li> 
+                <?php if ($connexion == true) {?>
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/deconnexion">Deconnexion</a>
+                </li> 
+                <?php  } ?>
             </ul> 
                 
                
